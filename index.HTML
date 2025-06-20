@@ -30,6 +30,13 @@
   </style>
 </head>
 <body>
+  <script>
+  window.addEventListener('click', () => {
+    const audio = document.querySelector('audio');
+    audio.play();
+  });
+  </script>
+
   <img
     class="gif"
     src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRxaXpsN2Jic3VjYndkcmRzenR5OWExM2twMTdqbWZwY3g3OGY2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dXGjdu2abpSco/giphy.gif"
@@ -37,7 +44,7 @@
   />
   <h1>Sorry!!</h1>
   <audio autoplay loop>
-    <source src="Untitled video - Made with Clipchamp.mp3" type="audio/mpeg" />
+    <source src="song.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
 </body>
